@@ -52,9 +52,6 @@ static uint32_t captureTime = 0;
 static uint32_t transferTime = 0;
 static uint32_t encodingTime = 0;
 
-struct pi_device cluster_dev = {0};
-struct pi_cluster_conf cl_conf = {0};
-
 static pi_task_t task1;
 
 static int open_pi_camera_himax(struct pi_device *device)
