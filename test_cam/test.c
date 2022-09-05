@@ -34,7 +34,7 @@
 
 #define IMG_ORIENTATION 0x0101
 #define WIDTH    324
-#define HEIGHT   324
+#define HEIGHT   224
 #define ASYNC
 
 static EventGroupHandle_t evGroup;
